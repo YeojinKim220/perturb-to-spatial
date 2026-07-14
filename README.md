@@ -4,15 +4,11 @@
 
 ## 🎬 Video walkthrough (≈2 min)
 
-<!-- INLINE PLAYER: drag `video/out/report_web.mp4` (8 MB) into a GitHub issue or
-     PR comment box, wait for it to upload, copy the
-     https://github.com/YeojinKim220/perturb-to-spatial/assets/... URL it inserts,
-     and paste that URL on the line below as a bare URL (no [](...) wrapper).
-     GitHub then renders an inline video player here. -->
+https://github.com/user-attachments/assets/c7580294-0315-4806-8870-bd3c29b1861f
 
 _Inline player: paste the uploaded `assets/...mp4` URL on the line above this note._
 
-Direct files: [report_web.mp4](https://github.com/user-attachments/assets/c7580294-0315-4806-8870-bd3c29b1861f) (8 MB, compressed) · [report.mp4](video/out/report.mp4) (18 MB, full quality) — a figure-by-figure walkthrough of the report.
+Direct files: [report_web.mp4](video/out/report_web.mp4) (8 MB, compressed) · [report.mp4](video/out/report.mp4) (18 MB, full quality) — a figure-by-figure walkthrough of the report.
 
 **Where inside a tumor would a T-cell perturbation matter — and does it depend on
 whether the T cell is resting or activated?**
