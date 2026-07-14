@@ -1,0 +1,24 @@
+# Data — never commit the large public datasets; download via step0_data/download_data.sh
+0-Data/
+*.h5ad
+*.h5mu
+*.rds
+*.zip
+
+# Results / figures / logs (regenerate by running the steps)
+2-Results/
+res/
+fig/
+log/
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+
+# macOS
+.DS_Store
