@@ -12,6 +12,7 @@ fig/
 log/
 *.png
 *.pdf
+!report/figures/*.png
 
 # Python
 __pycache__/

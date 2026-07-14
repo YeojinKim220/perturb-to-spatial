@@ -1,4 +1,4 @@
-# SpatialPerturb — pip-installable superset of the two conda stacks used on the cluster.
+# Pip-installable superset of the two conda stacks used on the cluster.
 # Python 3.11. Versions below match what was verified on PACE-Phoenix; newer patch
 # releases are generally fine.
 scanpy==1.11.5

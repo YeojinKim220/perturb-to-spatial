@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ---------------------------------------------------------------------------
-# SpatialPerturb — data download
+# Data download
 #
 # Two public datasets are joined in this project. Neither requires credentials.
 # Set DEST to a large-capacity location (scratch on an HPC cluster); the

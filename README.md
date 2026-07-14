@@ -1,9 +1,11 @@
-# SpatialPerturb
+# Perturb-to-Spatial
+
+⭐ **Research Report:** [report/hackathon_report_en.md](report/hackathon_report_en.md)
 
 **Where inside a tumor would a T-cell perturbation matter — and does it depend on
 whether the T cell is resting or activated?**
 
-SpatialPerturb connects a genome-scale CD4⁺ T-cell Perturb-seq atlas (what
+This project connects a genome-scale CD4⁺ T-cell Perturb-seq atlas (what
 happens inside a T cell when each gene is knocked down, measured in resting and
 stimulated states) to tumor spatial transcriptomics (where T-cell states sit
 relative to tumor, myeloid, and stromal neighbors), to produce a prioritized,
@@ -86,17 +88,9 @@ Two conda environments were used on the HPC cluster (PACE-Phoenix, SLURM):
 - **analysis stack** (steps 1, 5, 7, 8): the above plus `h5py`, `pandas`,
   `statsmodels`.
 
-See [`requirements.txt`](requirements.txt) for a pip-installable superset, and
-[`SLURM_TEMPLATE.md`](SLURM_TEMPLATE.md) for the job-submission pattern (any step
-over ~1 minute was run via `sbatch`, with outputs written to scratch).
-
-## Documentation
-
-[`docs/`](docs/) contains the project's working record: dated work logs, the
-narrative [`project_journey.md`](docs/project_journey.md), the
-[`background_literature_review.md`](docs/background_literature_review.md), and a
-[`claude_use.md`](docs/claude_use.md) log of how the analysis was driven. Most
-docs have a paired Korean (`_ko`) version.
+See [`requirements.txt`](requirements.txt) for a pip-installable superset. Any
+step over ~1 minute was run via `sbatch` on the cluster, with outputs written to
+scratch.
 
 ## Reproducing
 
@@ -104,7 +98,7 @@ docs have a paired Korean (`_ko`) version.
 # 0. get the data (use a large-capacity location, e.g. cluster scratch)
 bash step0_data/download_data.sh /path/to/0-Data
 
-# 1-8. run each step in order (submit as SLURM jobs on a cluster; see SLURM_TEMPLATE.md)
+# 1-8. run each step in order (submit as SLURM jobs on a cluster)
 #      edit the H5 / BASE path at the top of each script to point at your 0-Data
 python step1_data_inspection/overlap.py
 python step2_spatial_visualization/spatial_viz.py
