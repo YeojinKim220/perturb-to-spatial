@@ -14,6 +14,13 @@ log/
 *.pdf
 !report/figures/*.png
 
+# Node / Remotion (video project) — commit source + the rendered mp4, not deps
+node_modules/
+.remotion/
+video/out/*
+!video/out/report.mp4
+!video/public/*.png
+
 # Python
 __pycache__/
 *.pyc
