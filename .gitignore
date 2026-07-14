@@ -19,6 +19,7 @@ node_modules/
 .remotion/
 video/out/*
 !video/out/report.mp4
+!video/out/report_web.mp4
 !video/public/*.png
 
 # Python
