@@ -12,7 +12,7 @@
 
 _Inline player: paste the uploaded `assets/...mp4` URL on the line above this note._
 
-Direct files: [report_web.mp4](video/out/report_web.mp4) (8 MB, compressed) · [report.mp4](video/out/report.mp4) (18 MB, full quality) — a figure-by-figure walkthrough of the report.
+Direct files: [report_web.mp4](https://github.com/YeojinKim220/perturb-to-spatial/blob/main/video/out/report_web.mp4) (8 MB, compressed) · [report.mp4](video/out/report.mp4) (18 MB, full quality) — a figure-by-figure walkthrough of the report.
 
 **Where inside a tumor would a T-cell perturbation matter — and does it depend on
 whether the T cell is resting or activated?**
